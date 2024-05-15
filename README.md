@@ -18,8 +18,14 @@ Docker
 Golang
 
 🔥Como executar o projeto Executar:
-docker build -t <name>/fullcycle . vai gerar a imagem  
+Para gerar a imagem local:
+docker build -t <name>/fullcycle .   
+Para executar:
 docker run --rm <name>/fullcycle
 
 🐋 Link Docker Hub
 https://hub.docker.com/repository/docker/leandroabreuferreira/fullcycle
+Fazer o pull local:
+docker pull leandroabreuferreira/fullcycle
+Para executar:
+docker run --rm leandroabreuferreira/fullcycle
